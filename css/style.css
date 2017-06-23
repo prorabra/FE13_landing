@@ -24,3 +24,36 @@ em { font-style:italic;}
 form, menu, iframe { display:block; margin:0; padding:0; border:none;}
 ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 * { outline:none;}
+
+body{width: 1920px;
+	height: 856px;
+
+}
+.golovna{background-image: url("../images/grid.png");
+	background-repeat: no-repeat;
+    width: 1920px;
+	height: 856px;
+	position: relative;
+	
+}
+.golovna p{font-size: 61px;
+	/*padding : 71px 0 0 873px;*/
+	padding: 71px 0 0 36px;
+	text-align: center;
+	margin: 0;
+}
+.golovna img{margin: 0 auto;
+	display: block;
+}
+
+.logos {background: #ffffff;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 51px;
+
+}
+.ikon img{padding:10px; 
+	display: inline;
+
+}
