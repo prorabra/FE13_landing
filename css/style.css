@@ -24,80 +24,124 @@ em { font-style:italic;}
 form, menu, iframe { display:block; margin:0; padding:0; border:none;}
 ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 * { outline:none;}
-<content class="clearfix">
-		<div class="fon clearfix">
-				<h2 class="text9">ПОЧЕМУ СТОИТ ПОКУПАТЬ<br>МЕБЕЛЬ В КИТАЕ</h2>
-					<div class="uzel">
-						<img src="images/uzel_03.png">
-					</div>
-					<div class="content clearfix">
-						<div class="left_content clearfix">
-							<div class="icon">
-								<img class="window1" src="images/fara_04.png">
-								<p class="bonus">ЭКОНОМИЯ ДО 200%</p>
-								<img class="obl" src="images/obl_12.png">
-							</div>
-							<div class="favorite">
-								<ul>
-									<li>Доставка и расстаможка: +25%</li>
-									<li>Аренда в ТЦ: от 5000 тг за кв.м. + 10% к стоимости</li>
-									<li>Зарплата сотрудников: +10% к стоимости</li>
-									<li>НДС: +12% к стоимости</li>
-									<li>КПН: +5% к стоимости</li>
-									<li>Аренда склада: от 800 тг за кв.м. + 5 к стоимости</li>
-									<li>Прибыль владельца магазина: +30%-50% - к стоимости</li>
-								</ul>
-							</div>
-							<p class="text7">В ИТОГЕ РОЗНИЧНАЯ ЦЕНА:</p>
-							<p class="text8">Кухня(2000$) + Спальня(2100$) + Мягкая мебель в зал(2200$)</p>
-						</div>
-						<div class="right_content clearfix">
-							<div class="icon">
-								<img class="window1" src="images/fara1_06.png">
-								<p class="bonus">ПЕРЕПЛАТИТЬ БОЛЕЕ ЧЕМ В 200%</p>
-								<img class="obl" src="images/obl_12.png">
-							</div>
-							<div class="favorite">
-								<ul>
-									<li>Доставка и расстаможка: +25%</li>
-									<li>Аренда в ТЦ: от 5000 тг за кв.м. + 10% к стоимости</li>
-									<li>Зарплата сотрудников: +10% к стоимости</li>
-									<li>НДС: +12% к стоимости</li>
-									<li>КПН: +5% к стоимости</li>
-									<li>Аренда склада: от 800 тг за кв.м. + 5 к стоимости</li>
-									<li>Прибыль владельца магазина: +30%-50% - к стоимости</li>
-								</ul>
-							</div>
-							<p class="text7">В ИТОГЕ РОЗНИЧНАЯ ЦЕНА:</p>
-							<p class="text8">Кухня(2000$) + Спальня(2100$) + Мягкая мебель в зал(2200$)</p>
-						</div>
-					<div class="iwant clearfix">
-						<a href="">Хочу заказать мебель с 200% экономией</a>
-					</div>
-			</div>
-		</div>
-		<div class="clearfix">
-			<p class="text9">МЫ ГАРАНТИРУЕМ</p>
-				<div class="uzel">
-					<img src="images/uzel_03.png">
-				</div>
-			<div class="content clearfix">
-				<p class="text_11">We truly care about your site as much as you do, which is why we offer amazing support at our dedicated support center. In addition, we offer free updates with new features requested by our users. You can count on us.</p>
-				<div class="garant">
-					<img src="images/garant1_68.png">
-					<p class="bonus">СОХРАННОСТЬ ГРУЗОВ</p>
-				</div>
-				<div class="garant">
-					<img src="images/garant2_68.png">
-					<P class="bonus">КАЧЕСТВО ПРОДУКТА</P>
-				</div>
-				<div class="garant">
-					<img src="images/garant2_68.png">
-					<P class="bonus">ЮРИДИЧЕСКАЯ ГАРАНТИЯ:</P>
-					<p class="text_11">1) Бесплатная консультация<br>
-					2) Помощь при просчете стоимости<br>
-					3) Каталог мебели</p>
-				</div>
-			</div>
-		</div>
-	</content>
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;}
+.clearfix:after{
+	clear: both;}
+a{
+	text-decoration: none;}
+.slogan{
+	text-align: center;
+	width: 100%;
+	height: 150px;
+	background: #fff;
+	opacity: 0.7;
+	z-index: 3;
+	top: 140px;
+	position: absolute;}
+.text10{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	color: #333333;
+	font-size: 56px;}
+.text5{
+	margin-bottom: 7px;
+	font-size: 22px;}
+.text6{
+	font-size: 18px;}
+.text9{
+	line-height: 60px;
+	color: #333333;
+	padding-top: 30px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	font-size: 52px;}
+.fon{
+	width: 100%;
+	background-image: url(../images/fon_03.png);
+	background-size: contain;
+	background-repeat: no-repeat;}
+.uzel{
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;}
+.uzel img{
+	width: 25%;}
+.content{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	width: 70%;
+	margin: 0 auto;}
+.left_content{
+	width: 48%;
+	float: left;}
+.icon{
+	text-align: center;}
+.window1{
+	max-width: 45%;}
+.bonus{
+	font-size: 20px;
+	letter-spacing: -1px;
+	padding-top: 25px;
+	padding-bottom: 20px;}
+.obl{
+	width: 100%;}
+.favorite{
+	font-size: 18px;
+	line-height: 50px;}
+.favorite ul{
+	list-style-image: url(../images/marker_21.png);}
+.favorite li{
+	padding-left: 15px;
+	margin-left: 20px;}
+.right_content{
+	width: 48%;
+	float: right;}
+.text7{
+	margin: 20px 35px 10px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	color: red;
+	font-size: 18px;}
+.text8{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 35px;}
+.iwant{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	float: left;}
+.iwant a{
+	width: 48%;
+	margin: 0 auto;
+	display: block;
+	font-size: 18px;
+	color: red;
+	text-align: center;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	border: 2px solid red;
+	padding: 10px 15px 10px;}
+.text_11{
+	text-align: center;
+	line-height: 25px;}
+.garant{
+	float: left;
+	width: 33%;
+	text-align: center;}
+.garant img{
+	max-width: 75%;
+	margin-top: 20px;
+	margin-bottom: 20px;}
