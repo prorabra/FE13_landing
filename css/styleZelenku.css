@@ -1,0 +1,408 @@
+/*--------------------------Header------------------------*/
+.container{
+	width: 1050px;
+	margin: 0 auto;
+}
+.header1{
+	margin: 25px;
+}
+.header1Right{
+	float: right;
+}
+.header1Right>a[href*="tel"]{
+	color: #333;
+	font-size: 22px;
+	text-decoration: none;
+}
+.header1Right>a[href*="tel"]:hover{
+	color: #111;
+	text-shadow: 0px 0px 2px #000;
+	background-image: url(../images/telephone.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.header1Right>a[title*="об"]{
+	display: table;
+	float: right;
+	width: 176px;
+	height: 27px;
+	text-transform: uppercase;
+	color: #ec2026;
+	font-size: 12px;
+	border: 2px solid #ec2026;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+}
+.header1Right>a[title*="об"]:hover{
+	background-color: #ec2026;
+	color: #fff;
+}
+/*______________________________FORM#1______________________________*/
+.form1{
+	background-image: url(../images/forma_background1.jpg);
+	height: 760px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.form1Head{
+	background-color: rgba(255, 255, 255, 0.7);
+	height: 195px;
+}
+.form1Head>.container>p{
+	color: #333;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 1.4;
+}
+.form1Head11{
+	font-size: 74px;
+	font-weight: 300;
+}
+.form1Head1{
+	font-weight: 300;
+}
+form[name="firstForm"]{
+	margin: 0 auto;
+	width: 430px;
+	height: 430px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+form[name="firstForm"]>p {
+	margin: 40px 0 0 0;
+	font-size: 18px;
+	color: #fff;
+	padding: 0;
+	line-height: 1.5;
+}
+form[name="firstForm"] ul{
+	padding: 0;
+	margin: 5px 0;
+}
+.FirstLineForm1{
+	font-size: 23px;
+}
+form[name="firstForm"] li{
+	list-style-image: url(../images/list_element.png);
+	list-style-position: inside;
+	color: #fff;
+	line-height: 1.7;
+	margin: 0 30px;
+	font-weight: 500;
+}
+form[name="firstForm"] input{
+	margin: 10px 0;
+	padding: 0 15px;
+	height: 35px;
+	border: 1px solid #fff;
+	width: 340px;
+}
+form[name="firstForm"] input:focus{
+	border: 1px solid #ec2026;
+}
+form[name="firstForm"] input[type="submit"]{
+	width: 260px;
+	height: 48px;
+	font-weight: 700;
+	font-size: 19px;
+	background-color: #fff;
+	border: 2px solid #ec2026;
+	margin: 25px 0 0 -113px;
+	color: #ec2026;
+	padding: 0;
+}
+form[name="firstForm"] input[type="submit"]:hover{
+	background-color: #ec2026;
+	color: #fff;
+}
+/*______________________________FORM#2______________________________*/
+.middleForm{
+	background-image: url(../images/forma_background2.jpg);
+	height: 630px;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+.middleFormBlackSquare{
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 1000px;
+	height: 465px;
+	margin: 0 auto;
+	font-size: 37px;
+	color: #fff;
+}
+.middleFormBlackSquare>p{	
+	margin: 40px 0 0 0;
+	line-height: 1.3;
+}
+.middleFormBlackSquare span.ucase{
+	font-size: 46px;
+	font-weight: 500;
+}
+.middleFormBlackSquare>div{
+	float: left;
+}
+.middleForm li{
+	list-style-image: url(../images/list_element.png);
+	list-style-position: inside;
+	color: #fff;
+	line-height: 1.5;
+	margin: 0 30px;
+	font-weight: 300;
+	font-size: 20px;
+}
+form[name="middleForm"]{
+	float: right;
+	width: 440px;
+	border-left: 4px solid #ec2026;
+}
+form[name="middleForm"] input{
+	margin: 15px 30px 0 40px;
+	padding: 0 0 0 15px;
+	height: 35px;
+	border: 1px solid #fff;
+	width: 353px;
+}
+form[name="middleForm"] input[name="name"]{
+	margin: 25px 30px 0 40px;
+}
+form[name="middleForm"] input:focus{
+	border: 1px solid #ec2026;
+}
+form[name="middleForm"] input[type="submit"]{
+	width: 260px;
+	height: 48px;
+	font-weight: 700;
+	font-size: 19px;
+	background-color: #fff;
+	border: 2px solid #ec2026;
+	margin: 45px 140px 5px 40px;
+	color: #ec2026;
+	padding: 0;
+}
+form[name="middleForm"] input[type="submit"]:hover{
+	background-color: #ec2026;
+	color: #fff;
+}
+/*__________________________________Form#3__________________________*/
+.lastFormBlock{
+	background-image: url(../images/forma_background3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 671px;
+}
+.lastFormBlock>p{
+	padding: 85px 0 65px 0;
+	font-size: 38px;
+	line-height: 1.3;
+	color: #fff;
+}
+.lastFormBlock>p:first-line{
+	font-size: 61px;
+	font-weight: 500;
+}
+form[name="lastForm"]{
+	margin: 0 auto;
+	width: 440px;
+	height: 350px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+form[name="lastForm"] input{
+	margin: 15px 35px 0 35px;
+	padding: 0 0 0 15px;
+	height: 35px;
+	border: 1px solid #fff;
+	width: 353px;
+}
+form[name="lastForm"] input[name="name"]{
+	margin: 55px 35px 0 35px;
+}
+form[name="lastForm"] input:focus{
+	border: 1px solid #ec2026;
+}
+form[name="lastForm"] input[type="submit"]{
+	width: 260px;
+	height: 48px;
+	font-weight: 700;
+	font-size: 19px;
+	background-color: #fff;
+	border: 2px solid #ec2026;
+	margin: 45px 145px 5px 35px;
+	color: #ec2026;
+	padding: 0;
+}
+form[name="lastForm"] input[type="submit"]:hover{
+	background-color: #ec2026;
+	color: #fff;
+}
+/*___________________________CONTACTS____________________________*/
+.contacts{
+	background-image: url(../images/background1.png);
+	height: 828px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	margin: 0 auto;
+}
+.contacts>p{
+	padding: 75px 0 0 0;
+	font-size: 61px;
+	color: #333;
+	line-height: 1;
+}
+img[src="images/map.jpg"]{
+	position: absolute;
+	top: 230px;
+	right: 0px;
+	z-index: 1;
+	margin: 0 auto;
+}
+.contacts>.container{
+	position: absolute;
+	bottom: 120px;
+	margin: 0 auto;
+	left:435px;
+}
+.container>ul>li{
+	float: left;
+	list-style-image: url(../images/point.png);
+	list-style-position: outside;
+	color: #333;
+	font-size: 16px;
+}
+.container>ul>li:last-child{
+	margin: 0 0 0 40px;
+}
+li>a[href*="tel"]{
+	display: block;
+	padding: 10px 0 0 0;
+	font-size: 19px;
+	color: #333;
+	text-decoration: none;
+}
+li>a[href*="tel"]:hover{
+	text-shadow: 0px 0px 5px #555;
+	background-image: url(../images/telephone.png);
+	background-position-x: left;
+	background-position-y: 80%; 
+	background-repeat: no-repeat;
+	background-size: 19px 19px;
+}
+img[src="images/arm_chair.png"]{
+	float: right;
+	z-index: 2;
+	bottom: 45px;
+	right: 380px;
+	position: absolute;
+}
+/*____________________________Bottom_Line_________________*/
+.bottom{
+	height: 80px;
+	background-color: #cc0000;
+}
+img[src="images/logo_footer.png"]{
+	float: left;
+	display: block;
+	margin: 20px 0;
+}
+.bottomSvjaz{
+	float: right;
+	margin: 25px 0;
+}
+.bottomSvjaz>a[href*="tel"]{
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+	display: inline-block;
+}
+.bottomSvjaz>a[href*="tel"]:hover{
+	color: #eee;
+	text-shadow: 0px 0px 3px #fff;
+	background-image: url(../images/telephone.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.bottomSvjaz>a[title*="об"]{
+	display: table;
+	width: 176px;
+	height: 27px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 12px;
+	border: 2px solid #fff;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+	display: inline-block;
+	margin: 0 0 0 15px;
+}
+.bottomSvjaz>a[title*="об"]:hover{
+	background-color: #ec2026;
+	color: #fff;
+}
+/*_____________________Agreegments_after_FORM_____________*/
+.Agreegment{
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 100;
+	position: relative;
+}
+.Agreegment>div{
+	position: absolute;
+	left: 40%;
+	bottom: 50%;
+	width: 480px;
+	margin: 0 auto;
+	display: block;
+	/*background-color: #fff;*/
+}
+.Agreegment>div>div{
+	width: 450px;
+	height: 220px;
+	background-color: #010101;
+	margin: 0 auto;
+	clear: both;
+}
+.Agreegment>div>div>p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	padding: 20px 0 35px 35px;
+	margin: 0;
+	line-height: 1.5;
+}
+.Agreegment>div>div>p:first-line{
+	font-size: 38px;
+	font-weight: 300;
+}
+a[title="close"]{
+	text-align: right;
+	font-size: 25px;
+	color: #ec2026;
+	text-decoration: none;
+	display: block;
+	font-weight: 900;
+}
+a[title="close"]:hover{
+	text-shadow: 0px 0px 2px #e1181f;
+	color: #666;
+}
+a[title="ok"]{
+	display: block;
+	width: 80px;
+	height: 50px;
+	font-weight: 500;
+	font-size: 19px;
+	background-color: #fff;
+	border: 2px solid #ec2026;
+	margin: 0 155px 35px 35px;
+	color: #ec2026;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 0.95;
+}
+a[title="ok"]:hover{
+	background-color: #ec2026;
+	color: #fff;
+}

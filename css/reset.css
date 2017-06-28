@@ -24,3 +24,4 @@ em { font-style:italic;}
 form, menu, iframe { display:block; margin:0; padding:0; border:none;}
 ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
 * { outline:none;}
+input{cursor: pointer;}
